@@ -23,10 +23,5 @@ This is a **Money Management App** built using **.NET MAUI**, designed to help u
 2. Open the project in **Visual Studio**.
 3. Run the application on your preferred platform.
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit a pull request.
-
 ## 📜 License
 This project is licensed under the MIT License.
-
-.
