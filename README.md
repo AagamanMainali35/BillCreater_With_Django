@@ -1,27 +1,42 @@
-# Money Management App – .NET MAUI
+# Billing System – Django & SQLite
 
-This is a **Money Management App** built using **.NET MAUI**, designed to help users track their finances efficiently. The app provides an intuitive **dashboard** where users can view their **income, expenses, and transaction history** in a well-organized manner.
+This is a **Billing System** built using **Django**, **HTML**, and **CSS**, designed to generate **bills for each transaction** made by the user. The system ensures smooth and efficient transaction management with a user-friendly interface.
 
 ## 🚀 Features
-- 📊 **Dashboard Overview** – Get a quick summary of your finances, including total balance, income, and expenses.
-- 📂 **JSON-Based Storage** – All transaction data is securely stored in JSON files, ensuring lightweight and offline functionality.
-- ➕ **Add/Edit/Delete Transactions** – Users can manage transactions easily with options to add, update, or remove entries.
-- 🔍 **Filtering & Sorting** – Quickly find specific transactions using filters like date, amount, and category.
-- 📈 **Financial Insights** – Visual representations of spending habits to help users manage their budgets effectively.
-- ⚙ **Cross-Platform Support** – Works on **Android, iOS, Windows, and macOS** thanks to .NET MAUI.
+- 🧾 **Transaction-Based Billing** – Automatically generates a bill for each transaction.
+- 💾 **SQLite Database** – Uses a lightweight SQLite database for storing transaction records.
+- 🎨 **Responsive UI** – Built with HTML & CSS for a clean and modern interface.
+- ➕ **Add/Edit/Delete Transactions** – Users can manage transactions easily.
+- 📜 **Invoice Generation** – Generate downloadable and printable invoices.
+- 🔍 **Transaction History** – View and filter past transactions for easy tracking.
 
 ## 🛠 Tech Stack
-- **Framework:** .NET MAUI
-- **Data Storage:** JSON
-- **Language:** C#
+- **Backend:** Django (Python)
+- **Frontend:** HTML, CSS
+- **Database:** SQLite
 
 ## 📦 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/money-management-app.git
+   git clone https://github.com/yourusername/billing-system.git
    ```
-2. Open the project in **Visual Studio**.
-3. Run the application on your preferred platform.
+2. Navigate to the project directory:
+   ```bash
+   cd billcreator
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Apply migrations:
+   ```bash
+   python manage.py migrate
+   ```
+5. Run the server:
+   ```bash
+   python manage.py runserver
+   ```
+6. Open your browser and go to `http://127.0.0.1:8000/`
 
 ## 📜 License
 This project is licensed under the MIT License.
